@@ -12,7 +12,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post("https://ai-portfolio-with-chat-functionality-1.onrender.com", {
+      const response = await axios.post("https://ai-portfolio-with-chat-functionality-1.onrender.com/chat", {
         message: message,
       });
 
